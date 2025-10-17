@@ -4,7 +4,6 @@ Specifically, it analyses the competitions between two agents under different no
 expressed as standard deviation and correlation."""
 
 import os
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
