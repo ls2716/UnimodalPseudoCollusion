@@ -1,0 +1,21 @@
+# venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+
+# png files
+*.png
+
+# .csv files
+*.csv
+
+# pkl files
+*.pkl
+
+# json files
+*.json
+
+# egg-info files
+*.egg-info/
