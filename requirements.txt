@@ -18,7 +18,5 @@ scikit-optimize==0.10.2
 scipy==1.16.1
 six==1.17.0
 threadpoolctl==3.6.0
-# Editable Git install with no remote (tools==0.1.0)
--e /home/lukasz/Studies/Year9/ExplorationCollusion
 tqdm==4.67.1
 tzdata==2025.2
