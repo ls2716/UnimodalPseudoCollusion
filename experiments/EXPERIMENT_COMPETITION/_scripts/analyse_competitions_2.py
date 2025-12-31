@@ -163,7 +163,7 @@ def plot_summary_margins_vs_corr_and_noise(results_by_case):
                 alpha=0.2
             )
         ax.set_title(naming_dict[case_name])
-        ax.set_xlabel("$\\sigma$")
+        ax.set_xlabel("$\\sigma_{\\text{env}}$")
         if i == 0:
             ax.set_ylabel("Average margin")
         ax.legend()
@@ -270,7 +270,7 @@ def plot_summary_all_cases(case_results):
     axs[1, 0].set_ylabel("Correlation of margins")
     axs[1, 1].set_ylabel("Average reward")
     for ax in axs.flat:
-        ax.set_xlabel("$\\sigma$")
+        ax.set_xlabel("$\\sigma_{\\text{env}}$")
         ax.grid()
         ax.legend()
     plt.tight_layout()

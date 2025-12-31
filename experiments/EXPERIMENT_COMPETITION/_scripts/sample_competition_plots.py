@@ -66,7 +66,7 @@ def produce_sample_plot(all_results, std="0.02", corr="0.0", algorithm_name="eps
     plot_dir = "../sample_competition_plots"
     os.makedirs(plot_dir, exist_ok=True)
 
-    plt.figure(figsize=(14, 6))
+    plt.figure(figsize=(14, 5))
     plt.rcParams.update({'font.size': 19})
     plt.rcParams.update({'legend.fontsize': 17})
 
@@ -75,8 +75,8 @@ def produce_sample_plot(all_results, std="0.02", corr="0.0", algorithm_name="eps
         plt.plot(avg_margins[:, agent_idx], label=f"Agent {agent_idx+1} Margin")
     plt.axhline(y=1, color='r', linestyle='--', label='Nash Margin')
     plt.ylim([0.93, 1.17])
-    plt.xlabel("Time Step")
-    plt.ylabel("Normalized Margin")
+    plt.xlabel("Time step")
+    plt.ylabel("Normalized margin")
     plt.tight_layout()
     plt.grid()
     plt.savefig(f"{plot_dir}/{algorithm_name}_std_{std}_corr_{corr}_margins.png")

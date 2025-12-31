@@ -271,7 +271,7 @@ def plot_summary_all_cases(case_results):
     axs[1, 0].set_ylabel("Correlation of margins")
     axs[1, 1].set_ylabel("Average reward")
     for ax in axs.flat:
-        ax.set_xlabel("$\\sigma$")
+        ax.set_xlabel("$\\sigma_{\\text{env}}$")
         ax.grid()
         ax.legend()
     plt.tight_layout()
