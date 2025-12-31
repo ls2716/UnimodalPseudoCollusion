@@ -1,7 +1,7 @@
 # Unimodal Bandits for Pricing and Pseudo-collusion due to Localised Exploration
 
 
-The code supports the research presented in Chapter 3 of the PhD thesis:  
+The code supports the research presented in Chapter 4 of the PhD thesis:  
 “Algorithmic Pricing in Competitive Markets”  
 by Lukasz Sliwinski, 2025, University of Edinburgh.
 
